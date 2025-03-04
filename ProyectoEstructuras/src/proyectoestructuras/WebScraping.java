@@ -9,5 +9,5 @@ package proyectoestructuras;
  * @author enano
  */
 public class WebScraping {
-    
+    String dolar ="$";
 }
