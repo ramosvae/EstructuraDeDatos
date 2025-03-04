@@ -14,7 +14,10 @@ public class ProyectoEstructuras {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        LecturaEscrituraTxt archivo = new LecturaEscrituraTxt("Datos.txt");
+        archivo.escribirArchivo("Hola, esta es una prueba.");
+        archivo.escribirArchivo(".");
+        archivo.leerArchivo();
     }
     
 }
