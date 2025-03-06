@@ -18,6 +18,9 @@ public class ProyectoEstructuras {
         archivo.escribirArchivo("Hola, esta es una prueba.");
         archivo.escribirArchivo(".");
         archivo.leerArchivo();
+
+        FechaHora hf = new FechaHora();
+        System.out.println(hf);
     }
-    
+
 }
