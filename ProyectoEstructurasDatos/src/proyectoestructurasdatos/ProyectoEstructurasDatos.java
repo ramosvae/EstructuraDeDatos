@@ -29,14 +29,9 @@ public class ProyectoEstructurasDatos {
         System.out.println(hf);
         
         LecturaEscrituraTxt archivo = new LecturaEscrituraTxt("Datos.txt");
-        archivo.escribirArchivo(webScraping.aTxt);
-        archivo.escribirArchivoAppend(hf.toString());
+        archivo.escribirArchivo(webScraping.toTxt);
+        archivo.escribirArchivoAppend("\n"+hf.toString());
         archivo.leerArchivo();
-
-        
-        
-        
-        
 
     }
 
