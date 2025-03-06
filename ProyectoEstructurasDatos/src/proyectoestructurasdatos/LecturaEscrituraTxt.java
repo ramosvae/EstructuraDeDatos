@@ -35,7 +35,7 @@ public class LecturaEscrituraTxt {
     }
     
         public void escribirArchivoAppend(String contenido) {
-        try (BufferedWriter escritor = new BufferedWriter(new FileWriter(nombreArchivo, true))) { // true para agregar texto sin sobrescribir
+        try (BufferedWriter escritor = new BufferedWriter(new FileWriter(nombreArchivo, true))) { 
             escritor.write(contenido);
             escritor.newLine();
             System.out.println("Escritura completada.");
