@@ -4,12 +4,7 @@
  */
 package proyectoestructurasdatos;
 
-import java.io.IOException;
-import javax.swing.JOptionPane;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
+
 
 /**
  *
