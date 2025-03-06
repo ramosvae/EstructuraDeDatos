@@ -2,17 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package proyectoestructuras;
-
+package proyectoestructurasdatos;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-
 /**
  *
  * @author enano
  */
 public class FechaHora {
-        private LocalDateTime now;
+    private LocalDateTime now;
     private String formattedDate;
 
     public FechaHora() {
