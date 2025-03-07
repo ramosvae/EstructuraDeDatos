@@ -4,6 +4,8 @@
  */
 package proyectoestructurasdatos;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author enano
@@ -14,7 +16,7 @@ public class ProyectoEstructurasDatos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
+        JOptionPane.showMessageDialog(null, "Hola mundo");
         WebScraping webScraping = new WebScraping();
         webScraping.Scrap();
 

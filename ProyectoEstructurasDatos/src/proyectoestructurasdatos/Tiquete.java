@@ -87,7 +87,7 @@ public class Tiquete {
 
     @Override
     public String toString() {
-        return "Tiquete{" + "Nombre=" + Nombre + ", ID=" + ID + ", Edad=" + Edad + ", Horacreacion=" + Horacreacion + ", Horaatencion=" + Horaatencion + ", tramite=" + tramite + ", tipo=" + tipo + '}';
+        return "Tiquete{" + "Nombre=" + Nombre + ", ID=" + ID + ", Edad=" + Edad + ",\nHoracreacion=" + Horacreacion + ", Horaatencion=" + Horaatencion + ", tramite=" + tramite + ", tipo=" + tipo + '}';
     }
     
     
