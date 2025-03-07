@@ -12,6 +12,7 @@ import java.time.format.DateTimeFormatter;
 public class FechaHora {
     private LocalDateTime now;
     private String formattedDate;
+    private String formattedDatePlus5;
 
     public FechaHora() {
 
@@ -19,10 +20,19 @@ public class FechaHora {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         formattedDate = now.format(formatter);
+        formattedDatePlus5 = now.plusMinutes(5).format(formatter);
     }
 
     public String getSoloFecha() {
         return formattedDate.substring(0, 10);
+    }
+
+    public String getFormattedDatePlus5() {
+        return formattedDatePlus5;
+    }
+
+    public void setFormattedDatePlus5(String formattedDatePlus5) {
+        this.formattedDatePlus5 = formattedDatePlus5;
     }
 
     public String getSoloHora() {
