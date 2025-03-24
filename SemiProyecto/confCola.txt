@@ -1,0 +1,9 @@
+Luis,2,69,09:15:22,-1,Deposito,Preferencial
+Pedro,4,71,14:30:10,-1,CambioDivisas,Preferencial
+Ana,5,72,16:05:45,-1,Deposito,UnTramite
+Lucia,7,74,18:50:33,-1,CambioDivisas,Preferencial
+Sofia,9,76,19:12:50,-1,Retiro,UnTramite
+Andres,10,77,12:40:25,-1,CambioDivisas,MasTramites
+Kira,11,25,20:36:09,-1,CambioDivisas,UnTramite
+Jorge,12,30,20:43:50,-1,Retiro,UnTramite
+Kiki,13,42,01:12:09,-1,CambioDivisas,MasTramites
