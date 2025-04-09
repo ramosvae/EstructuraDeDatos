@@ -8,6 +8,7 @@ import org.jsoup.Jsoup;
 
 import javax.swing.*;
 
+
 public class Gestion {
     //Cliente[] listaClientes = cargarInfo();
 
@@ -390,6 +391,16 @@ public void mostrarAtendidos(){
         r += listaClientesAtendidos[i].toString()+"\n";
     }
     JOptionPane.showMessageDialog(null, "Lista de atendidos:\n" + r);
+}
+
+private Caja[] cajas = {
+    new Caja("Caja 1", 10, 50.0),
+    new Caja("Caja 2", 15, 70.0),
+    new Caja("Caja 3", 7, 20.0)
+};
+
+public Caja[] getCajas() {
+    return cajas;
 }
 
 

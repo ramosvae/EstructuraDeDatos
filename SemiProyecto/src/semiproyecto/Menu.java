@@ -16,7 +16,8 @@ public class Menu {
                             "2. Atender cliente en cola\n" +
                             "3. Mostrar las colas\n" +
                             "4. Mostrar atendidos\n" +
-                            "5. Terminar programa\n" +
+                            "5. Reportes\n" +
+                            "6. Terminar programa\n" +
                             ""
                             + g.getDolar()));
             switch (index) {
@@ -37,6 +38,9 @@ public class Menu {
                     menu();
                     break;
                 case 5:
+                    Reportes.generarReporte(g.getCajas());
+                    break;
+                case 6:
                     System.exit(0);
                     break;
                 default:
